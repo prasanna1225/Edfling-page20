@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Edfling-page20/static/css/main.c504bc86.css",
+    "main.js": "/Edfling-page20/static/js/main.e2eb2a9d.js",
+    "static/media/person.png": "/Edfling-page20/static/media/person.24584bb5703a5ad083a1.png",
+    "index.html": "/Edfling-page20/index.html",
+    "main.c504bc86.css.map": "/Edfling-page20/static/css/main.c504bc86.css.map",
+    "main.e2eb2a9d.js.map": "/Edfling-page20/static/js/main.e2eb2a9d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c504bc86.css",
+    "static/js/main.e2eb2a9d.js"
+  ]
+}
