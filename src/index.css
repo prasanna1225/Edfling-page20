@@ -1,13 +1,210 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body{
+  font-family:Poppins, sans-serif;
+  font-weight: 400;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.card-style{
+ 
+   width: 1280px;
+   height: 692px;
+  background: #215D4F;
+  margin: auto;
+  border-radius: 20px;
+  margin-bottom: 50px;
 }
+.header-part{
+  margin-top: 30px;
+}
+.header{
+  color: #CB8461;
+  font-family: Poppins, sans-serif;
+  font-weight: 700;
+  font-size: 35px;
+
+}
+.tagline{
+color: #FFF;
+font-family: Poppins;
+font-size: 20px;
+width: 653px;
+font-weight: 400;
+
+}
+
+.time-line-area{
+  margin:10px;
+ padding: 0 20px 0 30px;
+  border-left: 2px solid #CB8461 ;
+  border-left-style: dashed;
+}
+
+.timeline-items{
+border-radius: 5px;
+background: #FFF;
+margin-bottom: 25px;
+
+
+}
+
+.timeline-items::before{
+  content: '';
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50px;
+  background-color: #CB8461;
+  position: absolute;
+  left: 86px;
+ 
+  
+}
+
+a{
+  text-decoration: none;
+  color: #FFF;
+}
+
+.confused-card{
+width: 1280px;
+height: 213px;
+background: #215D4F;
+margin: auto;
+border-radius: 20px;
+
+}
+.header-h1{
+  color: #FFF;
+  font-family: Poppins, sans-serif;
+  font-weight: 700;
+  font-size: 42px;
+
+}
+.tagline-p{
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+  width: 600px;
+  opacity: 0.6;
+}
+.watch-vid{
+  background: '#CB8461';
+   border: 'none'; 
+   margin-left:'100px';
+   margin-top:'80px'
+     
+}
+
+
+
+
+  
+
+
+
+@media screen and (max-width: 992px) {
+ 
+  .header-part {
+    text-align: center; 
+  }
+  .tagline{
+    font-size: 20px;
+    width: 650px;
+    
+    
+    }
+    .header-h1{
+      font-size: 30px;
+    }
+    .tagline-p{
+  
+      width: 500px;
+      opacity: 0.6;
+      text-align: center;
+      font-size: 16px;
+    }
+   
+  .card-style{
+    width: 60rem;
+    height: 55rem;
+  }
+
+
+  .confused-card{
+    width: 60rem;
+  }
+  .timeline-items::before{
+    position: absolute;
+    left: 20px;
+   
+  }  
+  
+}
+
+@media screen and (max-width: 768px) {
+ 
+  
+
+  .tagline{
+    font-size: 16px;
+    width: 500px;
+    
+    }
+    .tagline-p{
+      width: 500px;
+      font-size: 16px;
+    
+    }
+
+  .card-style{
+    width: 44rem;
+    height: 80rem;
+  }
+  .confused-card{
+    width: 44rem;
+  }
+  .img-style{
+    display: none;
+  }
+ 
+  
+}
+
+@media screen and (max-width: 576px) {
+  .header-part {
+    text-align: center; 
+  }
+  .tagline{
+    font-size: 16px;
+    width: 400px;
+    font-weight: 400;
+    
+    }
+    .tagline-p{
+      
+      font-size: 16px;
+      width: 400px;
+    
+    }
+  .card-style{
+    width: 27rem;
+    height: 65rem;
+  }
+  .confused-card{
+    width: 27rem;
+    height: 25rem;
+  }
+  .timeline-items::before{
+    position: absolute;
+    left: 20px;
+   
+  }  
+  
+  
+}
+
+
+
+
+
+
